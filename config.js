@@ -5,7 +5,7 @@ const CONFIG = {
     title: 'Cậu thích tớ có phải không 😙',
     desc: 'Cậu không trả lời hoặc thoát ra, tức là cậu đồng ý làm ng iu tớ đó nha :> ',
     btnYes: 'có rất thíchhhh 😊',
-    btnNo: 'khônggg nha ',
+    btnNo: 'khônggg nha hihi ',
     question:'Nói cho tới lý do vì sao cậu thích tớ đii <3',
     btnReply: 'Gửi cho tớ 😘',
     reply: 'Tại vì cậu đẹp trai <3',
