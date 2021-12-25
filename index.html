@@ -35,8 +35,11 @@
         <button id="no" type="button" class="btn btn-info btn-lg"></button>
       </div>
     </div>
-    <script>
+    <script>var f=0;
       document.body.addEventListener("click", function (evt) {
+         f=f+1;
+        //alert(f);
+        if(f==1){
         console.dir(this);
         console.log(evt.target);
         var audio = new Audio("sound.mp3");
@@ -47,8 +50,9 @@
         audio.onended = function(){
           audio.play();
         }
-      });
-    </script>
+    
+      }});
+</script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
